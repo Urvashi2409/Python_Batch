@@ -107,10 +107,77 @@
 # print(type("Apurv hiiii"))
 # print(type(True))
 
-# mylist = [2, 3, 4, 5, 'person', "apurv", '''urvashi''', True, 45.6]
 # print(len(mylist))
 # print(mylist)
-
 # print(mylist[5])
-
 # print(mylist[-4])
+# slicing in list 
+# print(mylist[4:6])
+
+# 4, apurv, 45.6 
+# 2 = start 
+# 9 = end 
+# 3 = steps 
+# by default steps = 1
+# print(mylist[2:9:3])
+# print(mylist[-7:9:3])
+# print(mylist[-7::3])
+
+# print(mylist[-2::])
+# print(mylist[::])
+
+
+# print(mylist[-2:-7:])
+# print(mylist[-2:-7:-1])
+
+# print(mylist[-3::-2])
+# print(mylist[::-2])
+# print(mylist[::3])
+# True, person, 3 
+
+# print(mylist[-2::-3])
+
+
+# for i in range(0, len(mylist)):
+#     print(mylist[i], end=" || ")
+
+# startpoint, endpoint, steps 
+# for i in range(2, len(mylist), 2):
+#     print(mylist[i], end=" ")
+
+# for i in range(len(mylist)-1, 2, -1):
+#     print(mylist[i], end=" ")
+
+# for i in mylist[2::]:
+#     print(i, end=" ")
+
+# new line character 
+# print('\n')
+
+# print(mylist[2::])
+
+mylist = [2, 3, 4, 5, 'person', "apurv", '''urvashi''', True, 45.6]
+# mylist[5] = "New Zealand"
+# print(mylist)
+
+# lists are mutable 
+
+# how to add things in a list 
+# mylist.append("Hii")
+# print(mylist)
+
+# mylist.insert(8, "900")
+# print(mylist)
+
+# how to remove things from a list
+
+# remove = deletes a particular element 
+# mylist.remove("apurv")
+# print(mylist)
+
+# pop = deletes a particular element according to the index 
+# mylist.pop(7)
+# print(mylist)
+
+# mylist.pop()
+# print(mylist)
