@@ -156,7 +156,6 @@
 
 # print(mylist[2::])
 
-mylist = [2, 3, 4, 5, 'person', "apurv", '''urvashi''', True, 45.6]
 # mylist[5] = "New Zealand"
 # print(mylist)
 
@@ -181,3 +180,136 @@ mylist = [2, 3, 4, 5, 'person', "apurv", '''urvashi''', True, 45.6]
 
 # mylist.pop()
 # print(mylist)
+
+# del mylist[5]
+
+# print(mylist)
+
+list2 = [0, 23, 45, 12]
+
+# mylist.extend(list2)
+# print(mylist)
+
+# mylist = mylist + list2 
+# print(mylist)
+
+# for i in list2: 
+#     mylist.append(i)
+
+# print(mylist)
+
+# mylist = ['aarav', 'urshita', 'person', "apurv", '''urvashi''']
+
+# for i in range(len(mylist)):
+#     if 'u' in mylist[i]:
+#         print(mylist[i])
+
+# for i in mylist: 
+#     if 'u' in i:
+#         print(i)
+
+# list comprehension  
+# newlist = [mylist[i] for i in range(len(mylist)) if 'u' in mylist[i]]
+# print(newlist)
+# list2 = [1, 2, 3, 4]
+# mylist = [12, 34, '90', 'piyush', '''yash''', """tushar""", "tarun", [9, 3, 56, 235], list2, True]
+# print(mylist[7][2])
+# print(mylist[-3][-2])
+# print(mylist[7][-2])
+# print(mylist[-3][2])
+
+# mylist[3:6] = [34, 45, 60]
+# print(mylist)
+
+# mylist[7][1:3] = [11, 111]
+# print(mylist)
+
+# mylist = [23, 12, 4, 34, 5, 50]
+
+# it sorts the uppercase first and then lowercase 
+
+# list2 = [90, 34.5, 45.6]
+# mylist.sort()
+# print(mylist)
+
+# mylist.sort(reverse=True)
+# list2.sort(reverse=True)
+# print(mylist)
+# print(list2)
+
+# print(mylist.index("piyush"))
+
+# print(mylist.count("yash"))
+
+# for i in mylist: 
+#     if 'u' in i:
+#         print(i)
+
+# a = 0
+# for i in range(len(mylist)):
+#     if mylist[i] == "yash":
+#         a += 1
+# print(a)
+
+# mylist = ["yash", "kunal", "piyush", "manish", "Urshita", "Riya", "yash", "yash"]
+
+# its just giving the reference of the same list 
+# list1 = mylist 
+# list1[2:4] = [0, 1]
+# print(mylist)
+# print(list1)
+
+# list1 = mylist.copy()
+# list1[2:4] = [0, 1]
+# print(list1)
+# print(mylist)
+
+# list1 = []
+# for i in mylist: 
+#     list1.append(i)
+
+# list1[2:4] = [0, 1]
+# print(mylist)
+# print(list1)
+
+# mylist.clear()
+# print(mylist)
+
+# del mylist 
+# print(mylist)
+
+# strings, tuples, dictionaries 
+
+# operators: 
+# Arithematic: +, -, /, *, %, ** 
+# Assignment: =, +=, -=, *=, %=, **= 
+# Relational: ==, !=, >=, <=, >, < 
+# Logical: and, or, not 
+# Identity operator: is, is not 
+# in, not in  
+
+# x = "yash"
+# y = "yash"
+# if y is x: 
+#     print("True")
+
+# if y is not x: 
+#     print("False")
+
+# for i in mylist: 
+#     if i == "yash":
+#         print(i)
+#     elif i not in "yash":
+#         print("false")
+
+
+# 4.56  
+# 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 
+# 4343746327824
+# decimal = made of 10 digits 
+# 9 
+# binary = only 2 digits (0, 1)
+# 01011010101 
+
+# print(4/2)
+# print(4 >> 1)
