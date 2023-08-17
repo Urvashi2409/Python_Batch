@@ -185,7 +185,7 @@
 
 # print(mylist)
 
-list2 = [0, 23, 45, 12]
+# list2 = [0, 23, 45, 12]
 
 # mylist.extend(list2)
 # print(mylist)
@@ -227,6 +227,7 @@ list2 = [0, 23, 45, 12]
 # mylist = [23, 12, 4, 34, 5, 50]
 
 # it sorts the uppercase first and then lowercase 
+# Yash apurv 
 
 # list2 = [90, 34.5, 45.6]
 # mylist.sort()
@@ -258,6 +259,7 @@ list2 = [0, 23, 45, 12]
 # list1[2:4] = [0, 1]
 # print(mylist)
 # print(list1)
+
 
 # list1 = mylist.copy()
 # list1[2:4] = [0, 1]
@@ -313,3 +315,82 @@ list2 = [0, 23, 45, 12]
 
 # print(4/2)
 # print(4 >> 1)
+
+
+# tuples  
+
+# mytuple = (1, 2, 3, "riya", True, 0.7)
+# print(mytuple)
+# print(mytuple[2])
+# print(mytuple[-3])
+
+# list() = list constructor  
+
+# mylist = [0, 0, 0]
+# mylist = mylist + list(mytuple)
+# print(mylist)
+
+# newtuple = tuple(mylist)
+# print(newtuple)
+
+# tuples are faster than lists because those are not editable  
+
+# mylist = [1]
+# print(type(mylist))
+# newtuple = (1,)
+# print(type(newtuple))
+
+
+# mytuple.count(1)
+
+# function method 
+
+# mylist.sort() = methods are class based 
+# sorted(mytuple) = functions based 
+
+# mytuple.index("riya")
+
+# mytuple = reversed(mytuple)
+# print(mytuple)
+
+# mytuple[-2] = 34 
+# to change tuple element, convert it into list then change and convert it back 
+
+
+# unpacking tuples 
+# (x, y, z, w, p, m) = mytuple 
+# print(x, y, z, w, p, m)
+
+# *z is used to pack to a list and unpack from a list into elements 
+
+# (x, y, *z) = mytuple 
+# print(x, y, z)
+# mylist = [1, 2, 3]
+# mylist = [x, y, *z]
+# print(mylist)
+
+# mytuple = (1, 2, 3, "riya", True, 0.7)
+
+# mylist = [1, 2, 3, "riya", True, 0.7]
+
+# [x, y, z, a, b, c] = mylist 
+# print(x, y, z, a, b, c)
+
+# dictionary 
+
+# key value pair 
+# first_name = fgskhfgkfkgffk 
+mydict = {
+    # "first_name" : first_name,
+    "priya" : 20,
+    "tiya" : 90,
+    "piya" : 0,
+    "esha" : [0, 1, 2]
+}
+
+# print(mydict)
+# print(mydict['riya'])
+
+# print(mydict['esha'][1])
+# print(mydict['esha'][1:])
+
