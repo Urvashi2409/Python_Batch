@@ -380,13 +380,6 @@
 
 # key value pair 
 # first_name = fgskhfgkfkgffk 
-mydict = {
-    # "first_name" : first_name,
-    "priya" : 20,
-    "tiya" : 90,
-    "piya" : 0,
-    "esha" : [0, 1, 2]
-}
 
 # print(mydict)
 # print(mydict['riya'])
@@ -394,3 +387,170 @@ mydict = {
 # print(mydict['esha'][1])
 # print(mydict['esha'][1:])
 
+# nested dictionary 
+# mydict = {
+#     "1" : {
+#         1 : 3,
+#         4: 6,
+#         5: 7,
+#     },
+#     "4" : {
+#         11 : 13,
+#         41: 64,
+#         15: 71,
+#     }
+# }
+
+# print(mydict["4"][41])
+
+# lists, dict are mutable, tuples are immutable 
+# keys are unique 
+
+
+# mydict["piya"] = 70 
+
+# it adds new when we dont have that key but it updates if we have it 
+# ordered 
+
+# mydict.update({
+#     "ya" : 70
+# })
+
+# print(mydict)
+
+# print(mydict["piya"])
+# print(mydict.get("piya"))
+
+
+# mydict.pop("piya")
+# mydict.popitem()
+# del mydict["piya"]
+# del mydict 
+# mydict.clear()
+# print(mydict)
+
+# for loops  
+# mydict = {
+#     "priya" : 20,
+#     "tiya" : 90,
+#     "piya" : 0,
+#     "esha" : [0, 1, 2]
+# }
+
+# for i in mydict: 
+#     print(i)
+
+# for i in mydict.values():
+#     print(i)
+
+# for i in mydict.keys():
+#     print(i)
+
+# for i, j in mydict.items():
+#     print(i, j)
+
+# print(mydict.values())
+# print(mydict.keys())
+# print(mydict.items())
+
+# functions 
+# inbuilt 
+# module functions 
+# custom functions 
+
+# parameters = parantheses when we are defining the function 
+# def greeting(name, message):
+#     print("Hi", name)
+#     print(message)
+#     print("dskfskdjfkjsfgksfdkjf")
+#     print("ajhkskdkadadkasdadadkakdj")
+#     print("sjkdjkaskjdgaksdgksadgsagd")
+
+# function call 
+# arguments = function call 
+# greeting("Riya", "You are good")
+# greeting("Urvashi")
+# greeting("Apurv")
+
+# def add(a, b):
+#     c = a + b
+    # return c 
+#     print(c)
+
+# add(1, 2)
+# ans = add(3, 4)
+# print(ans)
+# print(ans)
+
+# scopes 
+# 3, 3, 2, 10, 11, 
+# global scope , function scope, local scope  
+# x = 3 
+# print(x)
+# def func(x):
+#     print(x)
+#     x = 10 
+#     print(x)
+#     x += 1 
+#     print(x)
+#     if x <= 9:
+#         x = 23
+#         print("cool ", x)
+#     elif x == 11:
+#         x = 45
+#         print("not cool ", x)
+#     else:
+#         x = 90
+#         print("yes ", x)
+#     return x 
+
+# print(x)
+# x = func(2)
+# print(x)
+
+
+# child can access parent everytime but there is some condition for parent to access the child 
+# def sub(a, b):
+#     c = a - b 
+#     if 3 > 4: 
+#         y = 34 
+#         print(c)
+#     elif 5 > 3:
+#         y = 45 
+#         print(c)
+#     else:
+#         y = 4 
+#         print(c)
+#     print(y)
+
+# sub(1, 2)
+
+# break, continue 
+# 0, default, u 
+# break will stop the current iteration after executing that if/else and the whole for loop 
+# for i in range(5):
+#     if i == 0:
+#         print(i)
+#     if i >= 1: 
+#         print("u")
+#         break 
+#     elif i > 2:
+#         print("no")
+#     else:
+#         print("default")
+    
+# 0, default, u 
+# continue = skips the current iteration after executing the particular if/else statement 
+
+# for i in range(5):
+#     if i == 0:
+#         print(i)
+#     if i >= 1: 
+#         print("u")
+#         continue 
+#     if i > 0:
+#         print("something")
+#     elif i > 2:
+#         print("no")
+#     else:
+#         print("default")
