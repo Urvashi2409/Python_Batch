@@ -554,3 +554,152 @@
 #         print("no")
 #     else:
 #         print("default")
+
+# paramaters in functions 
+
+# default parameter 
+# def func(a = 10, b = 2):
+#     return a + b 
+
+# argument 
+# print(func(3, 4))
+
+# by default first parameter takes the value 
+
+# keyword arguments and positional arguments 
+
+# positional arguments 
+
+# def func(b, a = 10):
+#     return a + b 
+
+# print(func(10, 5))
+
+# arbitrary arguments 
+# *args = it is packing all the arguments inside a tuple 
+# if we don't know the number of arguments then use args 
+# def func(*args):
+#     res = 0 
+#     for i in range(len(args)):
+#         res += args[i]
+    
+    # args[2] = 3
+    # print(args)
+#     print(type(args))
+#     return res 
+
+
+# res = func(2, 3, 4, 5, 9, 12, 3, 4, 5, 5, 6, 7)
+# print(res)
+
+# positional arguments //  keyword arguments
+# def func(a, c, b):
+#     res = 0
+#     res += (a + b + c)
+#     return res 
+
+
+# res = func(a = 3, b = 4, c = 5)
+# print(res)
+
+
+# arbitrary keyword arguments 
+
+# def func(**kwargs):
+#     res = 0
+    # print(type(kwargs))
+    # res += (kwargs.get('a') + kwargs.get('b'))
+    # res += (kwargs['a'] + kwargs['b'])
+    # return res 
+
+# res = func(a = 3, b = 8, c = 9, r = 0)
+# print(res)
+
+
+# sets 
+# s = {1, 2, 3, 4, 5, 5, 5, 5, 5}
+# print(type(s))
+
+# empty {} is a dictionary 
+# s = {}
+# print(type(s))
+
+# s = set(["rsdfhsdflfdhfsl", "skjhsjhsdjfgsdjfdf"])
+# print(s)
+
+# s = set()
+# print(type(s))
+
+# if we want empty set we can use set()
+# if i want to put values inside set() then put it as an iterable(list, tuple, strings, dictionary)
+
+# s = set({
+#     1 : 2,
+#     2 : 3,
+#     4 : 5,
+# })
+
+# print(s)
+# print(type(s))
+
+# for i in "food":
+#     print(i)
+
+# strings are immutable 
+# s = "food"
+# s[0] = "p"
+# print(s)
+
+# dict['r'] = 'foof'
+
+# sets are mutable 
+# s = {1, 2, 3, 4}
+# s.add('food')
+# print(s)
+
+# sets are unordered 
+# s[0] = "p"
+# print(s)
+
+# s.update({10, 2, 3, 4, 50, 6})
+# print(s)
+
+# s.remove(1)
+# print(s)
+
+# s.clear()
+# del s 
+
+# del s[1]
+# print(s)
+
+# s = s1.union(s2)
+# s = s1 | s2 
+# s = s2 | s1 
+# s1.update(s2)
+# print(s1)
+
+# s = s1.intersection(s2)
+# s1.intersection_update(s2)
+# s = s1 & s2 
+# s = s2 & s1 
+
+# not commutative 
+# s = s1 - s2 
+# s = s2 - s1 
+# s = s1.difference(s2)
+# s1.difference_update(s2)
+# print(s1)
+
+# s1 = {1, 2, 3, 4}
+# s2 = {20, 3, 4, 5, 6}
+
+# s = s1 ^ s2 
+# s = s1.symmetric_difference(s2)
+# s1.symmetric_difference_update(s2)
+# print(s1)
+
+# print(s1)
+
+# cardinality = 
+# print(len(s))
